@@ -1,0 +1,50 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myvoyage.SmallStepsActivity"
+    android:id="@+id/task_item_container"
+    style="@style/TableRowContainer">
+    <LinearLayout
+        android:id="@+id/task_item_text_container"
+        style="@style/TableItemTextContainer">
+        <TextView
+            android:id="@+id/task_title"
+            style="@style/TableItemText"
+            android:layout_width="0dp"
+            android:layout_weight="10" />
+        <TextView
+            android:id="@+id/task_deadline"
+            style="@style/TableItemText"
+            android:layout_width="0dp"
+            android:layout_weight="5" />
+        <TextView
+            android:id="@+id/task_status"
+            style="@style/TableItemText"
+            android:layout_width="0dp"
+            android:layout_weight="2" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/task_item_buttons_container"
+        style="@style/TableItemButtonsContainer">
+        <Button
+            style="@style/TableOperationButton"
+            android:text="@string/button_open_short"
+            android:onClick="addNewTask" />
+        <Button
+            android:id="@+id/button_add_detail"
+            style="@style/TableOperationButton"
+            android:text="@string/button_add_detail_short"
+            android:visibility="gone"
+            android:onClick="createChildGoal" />
+        <Button
+            android:id="@+id/button_show_detail"
+            style="@style/TableOperationButton"
+            android:text="@string/button_show_detail_short"
+            android:visibility="gone"
+            android:onClick="showChildGoal" />
+        <Button
+            style="@style/TableOperationButton"
+            android:text="@string/button_delete_short"
+            android:onClick="confirmToDeleteTask" />
+    </LinearLayout>
+</FrameLayout>

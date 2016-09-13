@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myvoyage.SmallStepsActivity"
+    android:id="@+id/task_input_container"
+    style="@style/TableRowContainer"
+    android:visibility="gone">
+    <LinearLayout
+        style="@style/TableInputTextContainer"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/input_title"
+            style="@style/TableInputText"
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:hint="@string/table_title_task" />
+        <EditText
+            android:id="@+id/input_deadline"
+            style="@style/TableInputText"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:hint="@string/table_title_deadline" />
+        <EditText
+            android:id="@+id/input_status"
+            style="@style/TableInputText"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="@string/table_title_status" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/TableInputButtonsContainer">
+        <Button
+            style="@style/TableOperationButton"
+            android:id="@+id/operation_button_cancel"
+            android:text="@string/button_close_short"
+            android:onClick="cancelNewTask" />
+        <Button
+            style="@style/TableOperationButton"
+            android:text="@string/button_save_short"
+            android:onClick="saveNewTask" />
+    </LinearLayout>
+</LinearLayout>

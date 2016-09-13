@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/PageContainer"
+    android:orientation="vertical"
+    tools:context="com.example.myvoyage.SmallStepsActivity" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/title_goal"
+            style="@style/PageTitleText"
+            android:layout_width="0dp"
+            android:layout_weight="1" />
+        <Button
+            style="@style/SimpleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_goal"
+            android:onClick="confirmToDeleteGoal" />
+    </LinearLayout>
+
+    <ScrollView  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/tasks_container"
+            style="@style/TableContainer">
+            <FrameLayout
+                android:id="@+id/task_title_container"
+                style="@style/TableRowContainer">
+                <LinearLayout
+                    android:id="@+id/task_title_text_container"
+                    style="@style/TableTitleTextContainer">
+                    <TextView
+                        style="@style/TableTitleText"
+                        android:layout_width="0dp"
+                        android:layout_weight="10"
+                        android:text="@string/table_title_task" />
+                    <TextView
+                        style="@style/TableTitleText"
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:text="@string/table_title_deadline" />
+                    <TextView
+                        style="@style/TableTitleText"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:text="@string/table_title_status" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/task_item_buttons_container"
+                    style="@style/TableItemButtonsContainer">
+                    <Button
+                        style="@style/TableOperationButton"
+                        android:text="@string/button_open_short"
+                        android:onClick="addNewTask" />
+                </LinearLayout>
+            </FrameLayout>
+            <include layout="@layout/partial_tasks_input_row"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

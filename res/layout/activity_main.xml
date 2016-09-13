@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/PageContainer"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.myvoyage.MainActivity" >
+
+    <Button
+        android:id="@+id/to_small_steps"
+        style="@style/SimpleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_small_steps"
+        android:onClick="chooseActivity" />
+    <Button
+        android:id="@+id/to_todo_list"
+        style="@style/SimpleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_todo_list"
+        android:onClick="chooseActivity" />
+    <Button
+        style="@style/SimpleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/export_data"
+        android:onClick="exportAppData" />
+
+</LinearLayout>

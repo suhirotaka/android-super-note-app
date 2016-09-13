@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyVoyage</string>
+    <string name="title_activity_small_steps">タスク一覧 - スモールステップ</string>
+    <string name="title_activity_todo_list">TodoListActivity</string>
+    <string name="title_activity_small_steps_portal">ゴール一覧 - スモールステップ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="to_small_steps">スモールステップへ</string>
+    <string name="to_todo_list">ToDoリストへ</string>
+    <string name="table_title_task">課題</string>
+    <string name="table_title_deadline">締切</string>
+    <string name="table_title_status">状況</string>
+    <string name="button_open_short">+</string>
+    <string name="button_close_short">-</string>
+    <string name="button_save_short">S</string>
+    <string name="button_delete_short">D</string>
+    <string name="button_show_detail_short">V</string>
+    <string name="button_add_detail_short">↓</string>
+    <string name="button_accept">Yes</string>
+    <string name="button_deny">No</string>
+    <string name="create_goal">新しいゴールを作成</string>
+    <string name="delete_goal">ゴールを削除</string>
+    <string name="goals_listed">ゴール一覧</string>
+    <string name="export_data">データをエクスポート</string>
+    <string name="data_export_succeeded">エクスポートに成功しました。</string>
+    <string name="data_export_failed">エクスポートできませんでした。</string>
+    <string name="confirm_to_delete_goal">このゴールを削除しますか？</string>
+    <string name="confirm_to_delete_task">このタスクには続きがあります。本当に削除しますか？\n続きは削除されません。</string>
+
+</resources>
