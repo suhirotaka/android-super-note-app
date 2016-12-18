@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myvoyage"
+    package="jp.gr.java_conf.suhirotaka.android_noteapp_proto"
     android:versionCode="2"
     android:versionName="1.1" >
 
@@ -16,7 +16,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="jp.com.example.myvoyage.MainActivity"
+            android:name="jp.gr.java_conf.suhirotaka.android_noteapp_proto.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,29 +25,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="jp.com.example.myvoyage.SmallStepsActivity"
+            android:name="jp.gr.java_conf.suhirotaka.android_noteapp_proto.SmallStepsActivity"
             android:label="@string/title_activity_small_steps"
-            android:parentActivityName="jp.com.example.myvoyage.SmallStepsPortalActivity"
+            android:parentActivityName="jp.gr.java_conf.suhirotaka.android_noteapp_proto.SmallStepsPortalActivity"
             android:configChanges="orientation|screenSize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.myvoyage.jp.com.example.myvoyage.SmallStepsPortalActivity" />
+                android:value="jp.gr.java_conf.suhirotaka.android_noteapp_proto.SmallStepsPortalActivity" />
         </activity>
         <activity
-            android:name="jp.com.example.myvoyage.TodoListActivity"
+            android:name="jp.gr.java_conf.suhirotaka.android_noteapp_proto.TodoListActivity"
             android:label="@string/title_activity_todo_list"
-            android:parentActivityName="jp.com.example.myvoyage.MainActivity" >
+            android:parentActivityName="jp.gr.java_conf.suhirotaka.android_noteapp_proto.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.myvoyage.jp.com.example.myvoyage.MainActivity" />
+                android:value="jp.gr.java_conf.suhirotaka.android_noteapp_proto.MainActivity" />
         </activity>
         <activity
-            android:name="jp.com.example.myvoyage.SmallStepsPortalActivity"
+            android:name="jp.gr.java_conf.suhirotaka.android_noteapp_proto.SmallStepsPortalActivity"
             android:label="@string/title_activity_small_steps_portal"
-            android:parentActivityName="jp.com.example.myvoyage.MainActivity" >
+            android:parentActivityName="jp.gr.java_conf.suhirotaka.android_noteapp_proto.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.myvoyage.jp.com.example.myvoyage.MainActivity" />
+                android:value="jp.gr.java_conf.suhirotaka.android_noteapp_proto.MainActivity" />
         </activity>
     </application>
 
