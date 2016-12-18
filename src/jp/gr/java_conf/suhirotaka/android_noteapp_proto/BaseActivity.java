@@ -1,4 +1,4 @@
-package com.example.myvoyage;
+package jp.gr.java_conf.suhirotaka.android_noteapp_proto;
 
 import android.app.Activity;
 import android.content.Context;

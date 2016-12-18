@@ -3,4 +3,4 @@
     style="@style/ListItemText"
     android:layout_width="match_parent" 
     android:layout_height="wrap_content" 
-    tools:context="com.example.myvoyage.SmallStepsPortalActivity" />
+    tools:context="com.example.myvoyage.jp.com.example.myvoyage.SmallStepsPortalActivity" />

@@ -3,7 +3,7 @@
     style="@style/PageContainer"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context="com.example.myvoyage.MainActivity" >
+    tools:context="com.example.myvoyage.jp.com.example.myvoyage.MainActivity" >
 
     <Button
         android:id="@+id/to_small_steps"

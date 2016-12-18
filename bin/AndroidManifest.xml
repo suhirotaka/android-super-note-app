@@ -16,7 +16,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="jp.com.example.myvoyage.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,29 +25,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SmallStepsActivity"
+            android:name="jp.com.example.myvoyage.SmallStepsActivity"
             android:label="@string/title_activity_small_steps"
-            android:parentActivityName=".SmallStepsPortalActivity"
+            android:parentActivityName="jp.com.example.myvoyage.SmallStepsPortalActivity"
             android:configChanges="orientation|screenSize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.myvoyage.SmallStepsPortalActivity" />
+                android:value="com.example.myvoyage.jp.com.example.myvoyage.SmallStepsPortalActivity" />
         </activity>
         <activity
-            android:name=".TodoListActivity"
+            android:name="jp.com.example.myvoyage.TodoListActivity"
             android:label="@string/title_activity_todo_list"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName="jp.com.example.myvoyage.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.myvoyage.MainActivity" />
+                android:value="com.example.myvoyage.jp.com.example.myvoyage.MainActivity" />
         </activity>
         <activity
-            android:name=".SmallStepsPortalActivity"
+            android:name="jp.com.example.myvoyage.SmallStepsPortalActivity"
             android:label="@string/title_activity_small_steps_portal"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName="jp.com.example.myvoyage.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.myvoyage.MainActivity" />
+                android:value="com.example.myvoyage.jp.com.example.myvoyage.MainActivity" />
         </activity>
     </application>
 
