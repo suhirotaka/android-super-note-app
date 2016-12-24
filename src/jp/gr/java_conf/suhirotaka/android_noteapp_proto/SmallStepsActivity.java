@@ -255,8 +255,8 @@ public class SmallStepsActivity extends BaseActivity {
 		updateTaskOrderToDb();
 		
 		// Remove the "id_as_task" value
-		String[] taskIds = { taskId };
-		removeIdAsTaskFromDb(taskIds);
+		//String[] taskIds = { taskId };
+		//removeIdAsTaskFromDb(taskIds);
 		
 		// Remove the view
 		View nextInputRow = getNextInputContainer(currentTaskRow);

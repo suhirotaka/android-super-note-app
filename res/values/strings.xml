@@ -26,6 +26,6 @@
     <string name="data_export_succeeded">Export successfully completed.</string>
     <string name="data_export_failed">Failed to export.</string>
     <string name="confirm_to_delete_goal">Do you really want to remove this root?</string>
-    <string name="confirm_to_delete_task">This item has children. Do you really want to remove this item?\nChidren are not removed.</string>
+    <string name="confirm_to_delete_task">This item has children. Do you really want to remove this item?</string>
 
 </resources>
