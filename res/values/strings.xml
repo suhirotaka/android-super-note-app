@@ -10,7 +10,7 @@
     <string name="to_small_steps">Start</string>
     <string name="table_title_task">Title</string>
     <string name="table_title_deadline">Date</string>
-    <string name="table_title_status">Status</string>
+    <string name="table_title_status">Stat</string>
     <string name="button_open_short">Insert next</string>
     <string name="button_close_short">Cancel</string>
     <string name="button_save_short">Save</string>

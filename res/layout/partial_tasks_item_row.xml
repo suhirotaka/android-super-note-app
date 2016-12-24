@@ -27,10 +27,6 @@
         android:id="@+id/task_item_buttons_container"
         style="@style/TableItemButtonsContainer">
         <Button
-            style="@style/TableOperationButton"
-            android:text="@string/button_open_short"
-            android:onClick="addNewTask" />
-        <Button
             android:id="@+id/button_add_detail"
             style="@style/TableOperationButton"
             android:text="@string/button_add_detail_short"
@@ -46,5 +42,9 @@
             style="@style/TableOperationButton"
             android:text="@string/button_delete_short"
             android:onClick="confirmToDeleteTask" />
+        <Button
+            style="@style/TableOperationButton"
+            android:text="@string/button_open_short"
+            android:onClick="addNewTask" />
     </LinearLayout>
 </FrameLayout>

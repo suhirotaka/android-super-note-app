@@ -13,13 +13,6 @@
         android:text="@string/to_small_steps"
         android:onClick="chooseActivity" />
     <Button
-        android:id="@+id/to_todo_list"
-        style="@style/SimpleButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/to_todo_list"
-        android:onClick="chooseActivity" />
-    <Button
         style="@style/SimpleButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

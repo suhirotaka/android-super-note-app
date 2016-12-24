@@ -46,16 +46,16 @@ public class MainActivity extends BaseActivity {
                 intent = new Intent(this, SmallStepsPortalActivity.class);
    		        startActivity(intent);
                 break;
-    		case R.id.to_todo_list:
-                intent = new Intent(this, TodoListActivity.class);
-   		        startActivity(intent);
-                break;
+//    		case R.id.to_todo_list:
+//                intent = new Intent(this, TodoListActivity.class);
+//   		        startActivity(intent);
+//                break;
             default:
 		}
 	}
 	
 	public void exportAppData(View view) {
-		String dstFileName = "MyVoyager_data_" + (new Date()).getTime();
+                String dstFileName = "Noteapp_Proto_export_" + (new Date()).getTime();
 		String[] dataFileNames = { "SmallSteps.db" };
 		String dstDirPath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).getPath()
 		                  + File.separator + dstFileName;

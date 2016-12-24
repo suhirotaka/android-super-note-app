@@ -58,16 +58,16 @@
         <item name="android:inputType">textMultiLine</item>
     </style>
     <style name="TableItemButtonsContainer">
-        <item name="android:layout_width">166dp</item>
+        <item name="android:layout_width">306dp</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:translationX">166dp</item>
+        <item name="android:translationX">366dp</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_gravity">right</item>
         <item name="android:gravity">center_vertical|right</item>
         <item name="android:background">@color/background_operation_button</item>
     </style>
     <style name="TableInputButtonsContainer">
-        <item name="android:layout_width">166dp</item>
+        <item name="android:layout_width">146dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_gravity">right</item>
@@ -75,7 +75,7 @@
         <item name="android:background">@color/background_operation_button</item>
     </style>
     <style name="TableOperationButton" parent="@android:style/Widget.CompoundButton">
-        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:gravity">center</item>
     </style>
