@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/PageContainer"
     android:orientation="vertical"
-    tools:context="com.example.myvoyage.jp.com.example.myvoyage.SmallStepsActivity" >
+    tools:context="jp.gr.java_conf.suhirotaka.android_noteapp_proto.SmallStepsActivity" >
     
     <LinearLayout
         android:layout_width="match_parent"

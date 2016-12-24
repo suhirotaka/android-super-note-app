@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.myvoyage.jp.com.example.myvoyage.TodoListActivity" >
+    tools:context="jp.gr.java_conf.suhirotaka.android_noteapp_proto.TodoListActivity" >
 
     <TextView
         android:layout_width="wrap_content"

@@ -1,7 +1,7 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.myvoyage.jp.com.example.myvoyage.SmallStepsActivity"
+    tools:context="jp.gr.java_conf.suhirotaka.android_noteapp_proto.SmallStepsActivity"
     android:id="@+id/task_item_container"
     style="@style/TableRowContainer">
     <LinearLayout

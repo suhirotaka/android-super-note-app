@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.myvoyage.jp.com.example.myvoyage.TodoListActivity" >
+    tools:context="jp.gr.java_conf.suhirotaka.android_noteapp_proto.TodoListActivity" >
 
     <item
         android:id="@+id/action_settings"

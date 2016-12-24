@@ -3,7 +3,7 @@
     style="@style/PageContainer"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context="com.example.myvoyage.jp.com.example.myvoyage.MainActivity" >
+    tools:context="jp.gr.java_conf.suhirotaka.android_noteapp_proto.MainActivity" >
 
     <Button
         android:id="@+id/to_small_steps"
