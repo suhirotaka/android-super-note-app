@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MyVoyage</string>
-    <string name="title_activity_small_steps">タスク一覧 - スモールステップ</string>
-    <string name="title_activity_todo_list">TodoListActivity</string>
-    <string name="title_activity_small_steps_portal">ゴール一覧 - スモールステップ</string>
     <string name="hello_world">Hello world!</string>
+    <string name="app_name">Noteapp Proto</string>
+    <string name="title_activity_small_steps">items list</string>
+     <string name="title_activity_todo_list">todos list</string>
+    <string name="title_activity_small_steps_portal">roots list</string>
     <string name="action_settings">Settings</string>
-    <string name="to_small_steps">スモールステップへ</string>
-    <string name="to_todo_list">ToDoリストへ</string>
-    <string name="table_title_task">課題</string>
-    <string name="table_title_deadline">締切</string>
-    <string name="table_title_status">状況</string>
-    <string name="button_open_short">+</string>
-    <string name="button_close_short">-</string>
-    <string name="button_save_short">S</string>
-    <string name="button_delete_short">D</string>
-    <string name="button_show_detail_short">V</string>
-    <string name="button_add_detail_short">↓</string>
+    <string name="to_small_steps">Start</string>
+    <string name="table_title_task">Title</string>
+    <string name="table_title_deadline">Date</string>
+    <string name="table_title_status">Status</string>
+    <string name="button_open_short">Insert next</string>
+    <string name="button_close_short">Cancel</string>
+    <string name="button_save_short">Save</string>
+    <string name="button_delete_short">Delete</string>
+    <string name="button_show_detail_short">See children</string>
+    <string name="button_add_detail_short">Add children</string>
     <string name="button_accept">Yes</string>
     <string name="button_deny">No</string>
-    <string name="create_goal">新しいゴールを作成</string>
-    <string name="delete_goal">ゴールを削除</string>
-    <string name="goals_listed">ゴール一覧</string>
-    <string name="export_data">データをエクスポート</string>
-    <string name="data_export_succeeded">エクスポートに成功しました。</string>
-    <string name="data_export_failed">エクスポートできませんでした。</string>
-    <string name="confirm_to_delete_goal">このゴールを削除しますか？</string>
-    <string name="confirm_to_delete_task">このタスクには続きがあります。本当に削除しますか？\n続きは削除されません。</string>
+    <string name="create_goal">Create new root</string>
+    <string name="delete_goal">Remove root</string>
+    <string name="goals_listed">Roots list</string>
+    <string name="export_data">Export data</string>
+    <string name="data_export_succeeded">Export successfully completed.</string>
+    <string name="data_export_failed">Failed to export.</string>
+    <string name="confirm_to_delete_goal">Do you really want to remove this root?</string>
+    <string name="confirm_to_delete_task">This item has children. Do you really want to remove this item?\nChidren are not removed.</string>
 
 </resources>
