@@ -5,6 +5,9 @@ Noteapp Proto is a prototype of android notebook app which is written by native 
 Items in the notebook are organised in tree structure. I intentionally leave flaw in UI design so that you can learn how important UI design is and try to improve UI experience.
 
 ## Demo
+[Demo Video](https://youtu.be/vQ6-KWcL7lI "Noteapp Proto Demo")
+<br />
+You can toggle menu by long click on items.
 
 ## installation 
 [Google Play](https://play.google.com/apps/testing/jp.gr.java_conf.suhirotaka.android_noteapp_proto "Noteapp Proto")
